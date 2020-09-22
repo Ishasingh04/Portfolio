@@ -1,5 +1,23 @@
+.Top-container{
+	padding: 50px 50px;
+}
+.About-container{
+	padding: 50px 50px;
+
+}
+#Font0{
+  font-size: 50px;
+   font-family: 'Fredoka One', cursive;
+   text-align: center;
+   text-shadow: 5px 5px 5px white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 4%;
+
+}
+
 #Font1{
-	font-size: 90px;
+	font-size: 50px;
     text-align: center;
     font-family: 'Grandstander', serif;
     text-shadow: 5px 5px 5px white;
@@ -7,7 +25,7 @@
 }
 #Font2{
 	font-family: 'Grandstander', serif;
-	font-size: 68px;
+	font-size: 50px;
 	   text-align: center;
 }
 
@@ -57,6 +75,6 @@ body {
 }
 
 img:hover {
-	box-shadow: 4px 4px 4px 4px black;
+	box-shadow: 4px 3px 4px 3px beige;
 	 transition: 0.1s;
 }
