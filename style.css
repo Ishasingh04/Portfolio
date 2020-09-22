@@ -47,5 +47,16 @@ body {
   font-family: 'Concert One', cursive;
   font-size: 20px;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: rgba(255, 240, 189);
+}
+
+
+.card:hover {
+	 box-shadow: 2px 5px 10px 2px orange;
+	 transition: 0.1s;
+}
+
+img:hover {
+	box-shadow: 4px 4px 4px 4px black;
+	 transition: 0.1s;
 }
