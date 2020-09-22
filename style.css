@@ -1,0 +1,51 @@
+#Font1{
+	font-size: 90px;
+    text-align: center;
+    font-family: 'Grandstander', serif;
+    text-shadow: 5px 5px 5px white;
+    padding-top: 55px;
+}
+#Font2{
+	font-family: 'Grandstander', serif;
+	font-size: 68px;
+	   text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 240, 189);
+  padding: 16px;
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
