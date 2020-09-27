@@ -27,12 +27,38 @@
 
 
 <body style="background-color:black">
-<div class="Top-container" style="background-color: rgb(255, 240, 189)">	
-	<div class="row">
+ 
+
+<div class="Top-container" style="background-color: rgb(255, 240, 189)">
+
+  <!-- side nav-bar -->	
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#ABOUTME">About me</a>
+  <a href="#">Education</a>
+  <a href="#SKILLS">Skills</a>
+  <a href="#FOOTER">ContactMe</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
+  // document.body.style.backgroundColor = "rgba(0,0,0,0.2)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "black";
+}
+</script>
+	<div class="row" id="ABOUTME">
 		<div class="col-md-3">
-		<!-- <center>
-			<img src="me.jpg" style="height: 70%;width: 70%;margin-top: 5%;border-radius: 50%; " >
-		</center> -->
 		</div>
 		<div class="col-md-5" id="Font0">
 		<center>
@@ -43,7 +69,7 @@
 	</div>
 </div>
 
-<div class=" About-container" style="margin-top: 8%;" id="Font2">
+<div class=" About-container" style="margin-top: 8%;" id="Font2" >
 	<center>
 		<h1 style="color: white;font-size: 50px">About Me<br></h1>
 
@@ -62,7 +88,7 @@
 </div>
 <br><br>
 
-<div class="row ml-5 text-center" style="padding-right: 40px">
+<div class="row ml-5 text-center" style="padding-right: 40px"  id="SKILLS">
 
   <div class="column">
     <div class="card" >
@@ -205,7 +231,7 @@
 
 <br><br>
 
-<footer style="background-color: rgb(255, 240, 189)">
+<footer style="background-color: rgb(255, 240, 189)" id="FOOTER">
 	<div class="container">
 	<div class="row">
 		<div class="col-md-4"><center>
